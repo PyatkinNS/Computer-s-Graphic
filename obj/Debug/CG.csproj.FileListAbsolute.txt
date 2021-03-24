@@ -1,0 +1,10 @@
+D:\repos\CG\bin\Debug\CG.exe.config
+D:\repos\CG\bin\Debug\CG.exe
+D:\repos\CG\bin\Debug\CG.pdb
+D:\repos\CG\obj\Debug\CG.csprojAssemblyReference.cache
+D:\repos\CG\obj\Debug\CG.Form1.resources
+D:\repos\CG\obj\Debug\CG.Properties.Resources.resources
+D:\repos\CG\obj\Debug\CG.csproj.GenerateResource.cache
+D:\repos\CG\obj\Debug\CG.csproj.CoreCompileInputs.cache
+D:\repos\CG\obj\Debug\CG.exe
+D:\repos\CG\obj\Debug\CG.pdb
