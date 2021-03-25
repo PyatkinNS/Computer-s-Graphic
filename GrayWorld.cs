@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,9 +23,9 @@ namespace CG
                 for (int i = 0; i < sourceImage.Width; i++)
                     for (int j = 0; j < sourceImage.Height; j++)
                     {
-                        avgR += sourceColor.R;
-                        avgG += sourceColor.G;
-                        avgB += sourceColor.B;
+                        avgR += sourceImage.GetPixel(i, j).R;
+                        avgG += sourceImage.GetPixel(i, j).G;
+                        avgB += sourceImage.GetPixel(i, j).B;
                     }
                 avgR /= pixcount;
                 avgG /= pixcount;
@@ -44,4 +44,3 @@ namespace CG
 
     }
 }
-
