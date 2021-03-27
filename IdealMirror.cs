@@ -21,9 +21,9 @@ namespace CG
                 for (int i = 0; i < sourceImage.Width; i++)
                     for (int j = 0; j < sourceImage.Height; j++)
                     {
-                        if (sourceColor.R > maxR) maxR = sourceColor.R;
-                        if (sourceColor.G > maxG) maxG = sourceColor.G;
-                        if (sourceColor.B > maxB) maxB = sourceColor.B;
+                        if (sourceImage.GetPixel(i, j).R > maxR) maxR = sourceImage.GetPixel(i, j).R;
+                        if (sourceImage.GetPixel(i, j).G > maxG) maxG = sourceImage.GetPixel(i, j).G;
+                        if (sourceImage.GetPixel(i, j).B > maxB) maxB = sourceImage.GetPixel(i, j).B;
                     }
             }
             Color resultColor = Color.FromArgb(Clamp((int)(sourceColor.R * 255 / maxR), 0, 255),
